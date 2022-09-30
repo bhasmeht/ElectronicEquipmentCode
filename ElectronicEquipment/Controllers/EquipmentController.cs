@@ -5,7 +5,7 @@ namespace ElectronicEquipment.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EquipmentController : ControllerBase
+    public class EquipmentController :  ControllerBase
     {
     }
 }

@@ -9,7 +9,7 @@ namespace ElectronicEquipment.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class EquipmentController : ControllerBase
+    public class EquipmentController :  ControllerBase
     {
         private readonly IConfiguration _configuration;
         public EquipmentController(IConfiguration configuration)

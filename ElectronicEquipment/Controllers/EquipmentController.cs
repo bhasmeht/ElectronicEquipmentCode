@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace ElectronicEquipment.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class EquipmentController : ControllerBase
     {
